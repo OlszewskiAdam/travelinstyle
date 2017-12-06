@@ -29,6 +29,5 @@ myWindow.on("resize", function(event){
     if(windowWidth >= 900){
         lists.css("display", "block");
     }
-    
+
 });
-console.log(footerItems);
