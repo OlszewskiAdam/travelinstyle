@@ -8,6 +8,7 @@ burgerMenu.on("click", function(event) {
 
 let footerItems = $(".footer_menu_item");
 
+
 footerItems.on('click', function(event){
     let windowWidth = $(window).width();
     if(windowWidth < 900){
