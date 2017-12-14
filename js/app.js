@@ -1,5 +1,5 @@
 
-document.addEventListener("DOMContentLoaded", function(){
+$(window).on("load", function(){
     let sliderDirection = $(".slider_directions");
     let sliderExtraordinary = $(".slider_extraordinary");
     let sliderInspirations = $(".slider_inspirations");
@@ -101,5 +101,5 @@ document.addEventListener("DOMContentLoaded", function(){
          "contain": false,
          "pageDots": false
     });
-    allSliders.flickity("reloadImages");
+
 });
