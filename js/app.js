@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function(){
     let sliderRecommended = $(".slider_recommended");
     let sliderIdeasCategory = $(".slider_ideas_category");
     let sliderIdeas = $(".slider_ideas");
+    let allSliders = $(".carousel");
     let myWindow = $(window);
     let burgerMenu = $('#nav-icon');
 
@@ -100,4 +101,5 @@ document.addEventListener("DOMContentLoaded", function(){
          "contain": false,
          "pageDots": false
     });
+    allSliders.flickity("reloadImages");
 });
