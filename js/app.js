@@ -1,5 +1,5 @@
 
-$(window).on("load", function(){
+
     let sliderDirection = $(".slider_directions");
     let sliderExtraordinary = $(".slider_extraordinary");
     let sliderInspirations = $(".slider_inspirations");
@@ -46,16 +46,18 @@ $(window).on("load", function(){
     });
 
     $(sliderDirection).flickity({
-        "freeScroll": true,
+        "freeScroll": false,
         "wrapAround": true,
         "freeScrollFriction": 0.03,
         "cellAlign": "center",
         "contain": true,
+        "lazyLoad": 5,
         "pageDots": false
     });
     $(sliderExtraordinary).flickity({
         "freeScrollFriction": 0.03,
         "cellAlign": "left",
+        "lazyLoad": 2,
         arrowShape: {
             x0: 10,
             x1: 60, y1: 50,
@@ -64,12 +66,13 @@ $(window).on("load", function(){
         }
     });
     sliderInspirations.flickity({
-        "freeScroll": true,
+        "freeScroll": false,
         "wrapAround": true,
         "freeScrollFriction": 0.03,
         "cellAlign": "left",
         "contain": true,
         "pageDots": false,
+        "lazyLoad": 4,
         arrowShape: {
             x0: 10,
             x1: 60, y1: 50,
@@ -80,6 +83,7 @@ $(window).on("load", function(){
     sliderRecommended.flickity({
         "freeScrollFriction": 0.03,
         "cellAlign": "left",
+        "lazyLoad": 2,
         arrowShape: {
             x0: 10,
             x1: 60, y1: 50,
@@ -88,18 +92,18 @@ $(window).on("load", function(){
         }
     });
     sliderIdeasCategory.flickity({
-         "freeScroll": true,
+         "freeScroll": false,
          "freeScrollFriction": 0.03,
          "cellAlign": "center",
          "contain": true,
+         "lazyLoad": 5,
          "pageDots": false
     })
     sliderIdeas.flickity({
-         "freeScroll": true,
+         "freeScroll": false,
          "freeScrollFriction": 0.03,
          "cellAlign": "left",
          "contain": false,
+         "lazyLoad": 5,
          "pageDots": false
     });
-
-});
