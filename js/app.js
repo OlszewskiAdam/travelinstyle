@@ -9,11 +9,20 @@
     let allSliders = $(".carousel");
     let myWindow = $(window);
     let burgerMenu = $('#nav-icon');
+    let horizontalElem = $(".horizontal");
+    let socialBox = $(".social_media");
+    let menuBox = $(".menu_box");
+    let headerLogo =$(".header_logo");
 
 
     burgerMenu.on("click", function(event) {
 
         burgerMenu.toggleClass('open');
+        // burgerMenu.toggleClass('open_mobile');
+        menuBox.toggleClass('menu_box_open');
+        headerLogo.toggleClass('header_logo_open');
+        socialBox.toggleClass('social_media_open');
+        $("body").toggleClass('stop_scroll');
     })
 
     let footerItems = $(".footer_menu_item");
