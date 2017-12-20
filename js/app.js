@@ -92,6 +92,7 @@
     sliderRecommended.flickity({
         "freeScrollFriction": 0.03,
         "cellAlign": "left",
+        // "wrapAround": "true",
         "lazyLoad": 2,
         arrowShape: {
             x0: 10,
