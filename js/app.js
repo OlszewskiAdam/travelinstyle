@@ -1,5 +1,5 @@
 
-
+    let sliderHotelDescription = $(".slider_hotel_description");
     let sliderDirection = $(".slider_directions");
     let sliderExtraordinary = $(".slider_extraordinary");
     let sliderInspirations = $(".slider_inspirations");
@@ -101,6 +101,14 @@
         }
     });
     sliderIdeasCategory.flickity({
+         "freeScroll": false,
+         "freeScrollFriction": 0.03,
+         "cellAlign": "center",
+         "contain": true,
+         "lazyLoad": 5,
+         "pageDots": false
+    });
+    sliderHotelDescription.flickity({
          "freeScroll": false,
          "freeScrollFriction": 0.03,
          "cellAlign": "center",
