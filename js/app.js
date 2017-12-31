@@ -109,14 +109,14 @@
          "lazyLoad": 5,
          "pageDots": false
     });
-    sliderHotelDescription.flickity({
-         "freeScroll": false,
-         "freeScrollFriction": 0.03,
-         "cellAlign": "center",
-         "contain": true,
-         "lazyLoad": 5,
-         "pageDots": false
-    })
+    // sliderHotelDescription.flickity({
+    //      "freeScroll": false,
+    //      "freeScrollFriction": 0.03,
+    //      "cellAlign": "center",
+    //      "contain": true,
+    //      "lazyLoad": 5,
+    //      "pageDots": false
+    // });
     sliderIdeas.flickity({
          "freeScroll": false,
          "freeScrollFriction": 0.03,
