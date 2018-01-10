@@ -76,7 +76,7 @@
     });
     sliderInspirations.flickity({
         "freeScroll": false,
-        "wrapAround": true,
+        // "wrapAround": true,
         "freeScrollFriction": 0.03,
         "cellAlign": "left",
         "contain": true,

@@ -83,8 +83,6 @@
             <div class="home_video ">
 
                 <div class="video_player">
-                    <img src="img/homeMobileBg.png" alt="Home">
-                    <img class="img_tablet" src="img/homeBg.jpg" alt="Home">
                 </div>
 
                 <div class="home_banner_text">
@@ -114,6 +112,9 @@
                     <div class="horizontal_line">
 
                     </div>
+                </div>
+
+                <div class="background_box opacity_high" style="background-image: url({{ object.big_photo.photo.url }});">
                 </div>
 
             </div>
@@ -257,8 +258,11 @@
                 <div class="carousel slider_extraordinary">
                     <div class="carousel-cell is-selected">
                         <img class="carousel-cell-image" data-flickity-lazyload="img/slide_train.jpg" alt="Train">
+
                         <h2>
-                            <span class="font_second">Bhutan &amp; India</span>
+                            <span class="font_second">
+                                Bhutan &amp; India
+                            </span>
                             Amankora journey
                         </h2>
 
@@ -332,11 +336,11 @@
                             <li>Nurkowanie na rafie</li>
                             <li>Jachty</li>
                         </ul>
-                        <div class="button_see_more font_second">
+                        <a href="#" class="button_see_more font_second">
                             <span class="font_main">
                                 <i class="fa fa-angle-right" aria-hidden="true"></i>
                             </span> zobacz więcej
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="slide carousel-cell">
@@ -579,7 +583,7 @@
 
                     <div class="carousel slider_recommended">
 
-                        <div class="carousel-cell is-seleceted">
+                        <div class="carousel-cell is-seleceted" data-type="test">
                             <img class="carousel-cell-image" data-flickity-lazyload="img/slide_elephant.png" alt="Train">
                             <h2>
                                 <span class="font_second">Bhutan &amp; India</span>
